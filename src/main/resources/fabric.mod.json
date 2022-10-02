@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "namozutils",
+  "version": "${version}",
+
+  "name": "NamoZUtils Mpd",
+  "description": "TNT Tag Utils",
+  "authors": [
+    "NamoZUtils!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/namozutils/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.namozdizex.namozutils.NamoZUtilsMod"
+    ]
+  },
+  "mixins": [
+    "namozutils.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
